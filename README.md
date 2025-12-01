@@ -2,6 +2,8 @@
 ### AAI 521 - Group 7
 ### Contributors: Christopher Mendoza, Payal Patel, Tommy Poole
 
+## Installation
+This project runs rully within Google Colab, so no local installation is necessary. To run the notebooks, make sure the GrapeSLAM dataset is downloaded in your Google Drive.
 ## Project Overview
 This project develops a lightweight SLAM-Lite visual mapping pipeline for drone navigation using monocular video. The goal is to reconstruct 3D structure and estimate the UAV's trajectory using camera data from the GrapeSLAM research dataset. Our approach focuses on feature detection, optical flow, pose estimation, and trajectory refinement using GPS-based ground truth for evaluation.
 
@@ -54,4 +56,9 @@ A full 3D Procrustes alignment produced almost identical results, confirming int
 - 2D and 3D Procrustes alignment produced sub-meter precision.
 - The near identical 2D and 3D results suggest a strong internal consistency in motion reconstruction.
 
+## License
+This project is licensed under the MIT License.
+For more details: [LICENSE](./LICENSE).
 
+## Acknowledgements
+We thank our professor for providing the coursework and support throughout the semester, which allowed us to successfully complete this project.

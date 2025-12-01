@@ -3,7 +3,7 @@
 ### Contributors: Christopher Mendoza, Payal Patel, Tommy Poole
 
 ## Installation
-This project runs rully within Google Colab, so no local installation is necessary. To run the notebooks, make sure the GrapeSLAM dataset is downloaded in your Google Drive.
+This project runs fully within Google Colab, so no local installation is necessary. To run the notebook, make sure the GrapeSLAM dataset is downloaded in your Google Drive.
 ## Project Overview
 This project develops a lightweight SLAM-Lite visual mapping pipeline for drone navigation using monocular video. The goal is to reconstruct 3D structure and estimate the UAV's trajectory using camera data from the GrapeSLAM research dataset. Our approach focuses on feature detection, optical flow, pose estimation, and trajectory refinement using GPS-based ground truth for evaluation.
 
